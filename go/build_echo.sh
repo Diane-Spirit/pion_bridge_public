@@ -1,0 +1,1 @@
+gomobile bind -target=android -androidapi 31 -o ../libs/bridge.aar ./echo_bridge

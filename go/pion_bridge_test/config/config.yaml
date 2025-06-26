@@ -1,0 +1,13 @@
+# config.yaml
+websocket:
+  address: "your.server.address:3001"
+  retryInterval: 1s
+
+webrtc:
+  stunServers:
+    - "stun:stun.l.google.com:19302"
+  turnServers:
+    - urls:
+        - "turn:your.turn.server:3478"
+      username: "username"
+      credential: "credential"

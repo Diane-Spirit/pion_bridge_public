@@ -1,0 +1,1 @@
+gomobile bind -target=android -androidapi 31 -ldflags "-checklinkname=0" -o ../libs/bridge.aar ./pion_bridge
